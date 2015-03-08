@@ -46,4 +46,24 @@ group :development, :test do
   gem 'spring'
   gem 'rspec-rails', '~> 3.0'
   gem 'dotenv-rails'
+
+  gem 'pry-rails'
+  gem 'pry-doc'
+  gem 'pry-byebug'
+  gem 'pry-stack_explorer'
+
+  gem 'better_errors'
+  gem 'binding_of_caller'
+
+  gem 'hirb'
+  gem 'hirb-unicode'
+
+  gem 'tapp'
+  gem 'awesome_print'
+  gem 'quiet_assets'
+  gem 'annotate', git: 'git://github.com/ctran/annotate_models.git'
+  gem 'timecop'
+  gem 'guard-rspec'
+  gem 'factory_girl_rails'
+  gem 'database_rewinder'
 end
