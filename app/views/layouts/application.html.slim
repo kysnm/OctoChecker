@@ -7,7 +7,7 @@ html
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
     = csrf_meta_tags
   body
-    = nav_bar fixed: :top, brand: "OctoChecker", responsive: true do
+    = nav_bar fixed: :top, brand: "OctoChecker", inverse: true, responsive: true do
       = menu_group pull: :right do
         - if current_user
           = menu_item signout_path do
