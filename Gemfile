@@ -36,6 +36,8 @@ gem 'omniauth'
 gem 'omniauth-github'
 gem 'octokit'
 
+gem 'react-rails', '~> 1.0.0.pre', github: 'reactjs/react-rails'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
