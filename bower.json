@@ -14,7 +14,6 @@
     "test",
     "tests"
   ],
-  "directory": "bower_components",
   "dependencies": {
     "css3-social-signin-buttons": "necolas/css3-social-signin-buttons"
   }

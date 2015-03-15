@@ -37,6 +37,6 @@ module OctoChecker
     }
     config.generators.template_engine = :slim
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif *.ico)
-    config.assets.paths << Rails.root.join('bower_components', 'css3-social-signin-buttons')
+    config.assets.paths << Rails.root.join('vendor', 'assets', 'bower_components', 'css3-social-signin-buttons')
   end
 end
