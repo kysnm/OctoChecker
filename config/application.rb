@@ -35,5 +35,6 @@ module OctoChecker
       harmony: true,
       # strip_types: true, # for removing Flow type annotations
     }
+    config.generators.template_engine = :slim
   end
 end

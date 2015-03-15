@@ -1,0 +1,21 @@
+{
+  "name": "OctoChecker",
+  "version": "0.0.1",
+  "homepage": "https://github.com/kysnm/OctoChecker",
+  "authors": [
+    "kysnm <tokyoincidents.g@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "directory": "bower_components",
+  "dependencies": {
+    "css3-social-signin-buttons": "necolas/css3-social-signin-buttons"
+  }
+}
