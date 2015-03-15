@@ -14,7 +14,5 @@
     "test",
     "tests"
   ],
-  "dependencies": {
-    "css3-social-signin-buttons": "necolas/css3-social-signin-buttons"
-  }
+  "dependencies": {}
 }

@@ -10,7 +10,9 @@ html
     = nav_bar fixed: :top, brand: "OctoChecker", responsive: true do
       = menu_group pull: :right do
         - if current_user
-          = menu_item "Sign out", signout_path, class: "btn-auth btn-github"
+          = menu_item signout_path do
+            = fa_icon "github 2x", text: "Sign out"
         - else
-          = menu_item "Sign in with GitHub", "/auth/github", class: "btn-auth btn-github"
+          = menu_item "/auth/github" do
+            = fa_icon "github 2x", text: "Sign in with GitHub"
     = yield
