@@ -81,4 +81,7 @@ group :development, :test do
   gem 'guard-rspec'
   gem 'factory_girl_rails'
   gem 'database_rewinder'
+
+  gem 'rubocop'
+  gem 'pre-commit'
 end
