@@ -48,6 +48,7 @@ gem 'octokit'
 gem 'react-rails', '~> 1.0.0.pre', github: 'reactjs/react-rails'
 
 gem 'rails_12factor', group: :production
+gem 'puma'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
